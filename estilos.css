@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    font-size: 12px;
+} */
+
+body {
+    text-align: center;
+    background-image: url(imagenes/fondo.jpg);
+    font-size: 16px;
+    /* em tamaño fuente */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* COlocar tamaño de imagen se pueden utilizar unidades o colocan 
+    cover */
+    background-position: center;
+    background-attachment: fixed;
+    /* Dejar imagen estatica */
+    /* Prefijos
+    -webkit-background-size:cover; 
+    Prefijo chrome - internet explorer 
+    -moz-background-size:cover;  mozilla 
+    -o-background-size:cover; opera  */
+}
+
+div#menu {
+    background-color: #f03e11;
+    width: 60%;
+    max-width: 56.25em;
+    font-size: 1.56em;
+    /* margin: 20px 34px 20px 38px; Como  las manecillas del reloj arriba 
+   al lado derecho, abajo, al lado izquierdo. */
+    margin: 0 auto;
+    /* padding: 60px 29.92px 65px 29.92px; */
+    padding: 60px 30px;
+}
+
+div#menu a {
+    text-decoration: none;
+    /* QUita linea de los enlaces */
+    padding: 25px;
+}
+
+div#menu a:link {
+    color: rgb(253, 229, 125)
+}
+
+/* Visite el link */
+
+div#menu a:visited {
+    color: white;
+}
+
+/* pasar el mouse - mouseover link */
+
+div#menu a:hover {
+    text-decoration: underline;
+}
+
+/* sleccionar link */
+
+div#menu a:active {
+    color: rgb(106, 255, 106);
+}
+
+.contenedor {
+    background: rgba(252, 250, 116, 0.815);
+    width: 60%;
+    max-width: 56.25rem;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.contenedor h1 {
+    padding: 107px 35px 70px 10px;
+    color: #f03e11;
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: normal;
+    /* Negrita  */
+}
+
+.tituloImagen {
+    display: inline-flex;
+    width: 100%;
+}
+
+.imagen {
+    width: 80%;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 3px;
+    /* Borde redondeado a la imagen en las esquinas */
+}
+
+div.seccion2 {
+    width: 100%;
+    background-color: rgba(251, 87, 46, 0.281);
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    /* Ajusta el relleno (padding) y el borde al tamaño del contenido */
+    /* nos permite incluir el relleno y el borde en el ancho y alto total de un elemento. */
+}
+
+div.seccion2 img {
+    width: 200px;
+    position: absolute;
+    bottom: -180px;
+    right: 35px;
+}
+
+p.fixed {
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    width: 300px;
+    background-color: #f03e11;
+}
+
+.ingredientes {
+    height: 400px;
+    margin-top: 150px;
+    overflow: auto;
+}
+
+.ingredientes h2 {
+    padding: 0px 35px 50px 10px;
+    color: #f03e11;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+}
+
+.ingredientes p {
+    font-size: 20px;
+    white-space: pre-wrap;
+
+    /*  emplea para determinar la forma en que el navegador 
+    tomará los espacios en blanco y los saltos de línea.  */
+}
+
+.ingredientes span{
+    color: rgb(24, 168, 24);
+    font-weight: 600;
+}
+
+
+.indicaciones caption, tr, td {
+ border: 2px solid black ;
+ padding: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 350px;
+    font-family: cursive;
+    background-color: rgb(253, 229, 125);
+}
+
+table span {
+    background-color: #f7a18c;
+    border-radius: 70px 30px;
+}
+
+caption {
+    text-align: center;
+    color: #f03e11;
+
+}
+
+td{
+    vertical-align: top;
+}
